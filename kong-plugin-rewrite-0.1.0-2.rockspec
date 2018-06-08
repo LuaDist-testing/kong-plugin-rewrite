@@ -1,14 +1,14 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "kong-plugin-rewrite"
-version = "0.1.0-1"
+version = "0.1.0-2"
 
 local pluginName = package:match("^kong%-plugin%-(.+)$")  -- "rewrite"
 
 supported_platforms = {"linux", "macosx"}
 -- LuaDist source
 source = {
-  tag = "0.1.0-1",
+  tag = "0.1.0-2",
   url = "git://github.com/LuaDist-testing/kong-plugin-rewrite.git"
 }
 -- Original source
