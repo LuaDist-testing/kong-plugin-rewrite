@@ -1,15 +1,23 @@
+-- This file was automatically generated for the LuaDist project.
+
 package = "kong-plugin-rewrite"
-version = "0.2.2-1"
+version = "0.3.1-1"
 
 local pluginName = package:match("^kong%-plugin%-(.+)$")  -- "rewrite"
 
 supported_platforms = {"linux", "macosx"}
+-- LuaDist source
 source = {
-  -- these are initially not required to make it work
-  url = "git://github.com/andy-zhangtao/rewrite",
-  tag = "v0.2.2",
-  branch="master"
+  tag = "0.3.1-1",
+  url = "git://github.com/LuaDist-testing/kong-plugin-rewrite.git"
 }
+-- Original source
+-- source = {
+--   -- these are initially not required to make it work
+--   url = "git://github.com/andy-zhangtao/rewrite",
+--   tag = "v0.3.1",
+--   branch="master"
+-- }
 
 description = {
   summary = "Kong Plugin Rewrite use for rewrite querst temporary.",
